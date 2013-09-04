@@ -1,0 +1,5 @@
+code                                   app/code/community/CosmoCommerce/ChineseLocale
+locale/zh_CN      app/locale/zh_CN
+template/translate.csv     app/design/frontend/default/default/locale/zh_CN/translate.csv
+template/translate.csv     app/design/frontend/default/modern/locale/zh_CN/translate.csv
+CosmoCommerce_ChineseLocale.xml                          app/etc/modules/CosmoCommerce_ChineseLocale.xml
