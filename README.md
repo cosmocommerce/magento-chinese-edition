@@ -27,3 +27,8 @@ Alipay, 99Bill, Union Pay
 4  modman clone https://github.com/cosmocommerce/magento-chinese-edition
 
 完成安装
+
+
+注意事项：
+
+安装本模块会对清空原有中文翻译文件，我们希望把所有中文翻译都统一在本模块内，如果您有原来的翻译文件。请备份locale\zh_CN文件夹，安装或更新本模块以后再放回。
