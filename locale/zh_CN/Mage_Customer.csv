@@ -427,7 +427,7 @@
 "My Dashboard","My Dashboard"
 "From your My Account Dashboard you have the ability to view a snapshot of your recent account activity and update your account information. Select a link below to view or edit information.","From your My Account Dashboard you have the ability to view a snapshot of your recent account activity and update your account information. Select a link below to view or edit information."
 "Contact Information","Contact Information"
-"Address Book","Address Book"
+"Address Book","地址管理"
 "Account Information","Account Information"
 "Thank you for registering with %s","Thank you for registering with %s"
 "Newsletter Subscription","Newsletter Subscription"
@@ -444,3 +444,5 @@
 "Log Out","Log Out"
 "First Name","First Name"
 "Last Name","Last Name"
+
+"My Dashboard","我的控制面板"
