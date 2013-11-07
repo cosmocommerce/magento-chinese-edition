@@ -25,7 +25,7 @@
 <config>
     <modules>
         <CosmoCommerce_ChineseLocale>
-            <version>1.0.0</version>
+            <version>1.1.0</version>
         </CosmoCommerce_ChineseLocale>
     </modules>
 </config>
