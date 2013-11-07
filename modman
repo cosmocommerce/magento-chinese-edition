@@ -7,3 +7,4 @@ CosmoCommerce_ChineseLocale.xml                          app/etc/modules/CosmoCo
 
 CosmoCommerce_Customer.xml                          app/etc/modules/CosmoCommerce_Customer.xml
 Customer                                   app/code/community/CosmoCommerce/Customer
+template_customer/name.phtml                             app/design/frontend/default/default/template/customer/widget/name.phtml
