@@ -4,3 +4,6 @@ template/translate.csv     app/design/frontend/default/default/locale/zh_CN/tran
 template/translate.csv     app/design/frontend/default/modern/locale/zh_CN/translate.csv
 template/admin_translate.csv     app/design/adminhtml/default/CosmoCommerce/locale/zh_CN/translate.csv
 CosmoCommerce_ChineseLocale.xml                          app/etc/modules/CosmoCommerce_ChineseLocale.xml
+
+CosmoCommerce_Customer.xml                          app/etc/modules/CosmoCommerce_Customer.xml
+Customer                                   app/code/community/CosmoCommerce/Customer

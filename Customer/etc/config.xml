@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * @category    CosmoCommerce
+ * @package     CosmoCommerce_Customer
+ * @copyright   Copyright (c) 2009-2013 CosmoCommerce,LLC. (http://www.cosmocommerce.com)
+ * @contact :
+ * T: +86-021-66346672
+ * L: Shanghai,China
+ * M:sales@cosmocommerce.com
+ */
+-->
+<config>
+    <modules>
+        <CosmoCommerce_Customer>
+            <version>1.0.0</version>
+        </CosmoCommerce_Customer>
+    </modules>
+    <global>
+        <models>
+            <customer>
+                <rewrite>
+                    <customer>CosmoCommerce_Customer_Model_Customer</customer>
+                    <form>CosmoCommerce_Customer_Model_Form</form>
+                </rewrite>
+            </customer>
+<!--        
+            <customer_entity>
+                <rewrite>
+                    <customer>CosmoCommerce_Customer_Model_Entity_Customer</customer>
+                </rewrite>
+            </customer_entity>
+        -->
+        </models>
+<!--        
+        <blocks>
+            <catalog>
+                <rewrite>
+                    <category_head>CosmoCommerce_Catalog_Block_Category_Head</category_head>
+                    <seo_sitemap_category>CosmoCommerce_Catalog_Block_Seo_Sitemap_Category</seo_sitemap_category>
+                    <seo_sitemap_product>CosmoCommerce_Catalog_Block_Seo_Sitemap_Product</seo_sitemap_product>
+                    <product_list_toolbar>CosmoCommerce_Catalog_Block_Product_List_Toolbar</product_list_toolbar>
+                    <product_new>CosmoCommerce_Catalog_Block_Product_New</product_new>
+                    <product_blog>CosmoCommerce_Catalog_Block_Product_Blog</product_blog>
+                    
+                </rewrite>
+            </catalog>
+        </blocks>
+        -->
+    </global>
+</config>
