@@ -688,3 +688,15 @@ Retrieve categories tree"""
 "Default Category","默认分类"
 "Group Price","会员组价格"
 "Sort By","排序"
+
+
+"Submit","提交"
+"Cancel","取消"
+ 
+"Images","商品图片管理"
+"Prices","价格"
+"Meta Information","SEO信息"
+"Recurring Profile","重复购买记录"
+"Gift Options","礼品选项"
+"Categories","分类"
+"WYSIWYG Editor","所见即所得编辑器"
