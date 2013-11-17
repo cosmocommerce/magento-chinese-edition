@@ -1,5 +1,6 @@
 code                                   app/code/community/CosmoCommerce/ChineseLocale
 local/Customer                                   app/code/local/Mage/Customer
+local/Sales                                   app/code/local/Mage/Sales
 locale/zh_CN/*      app/locale/zh_CN
 template/translate.csv     app/design/frontend/base/default/locale/zh_CN/translate.csv
 template/translate.csv     app/design/frontend/default/default/locale/zh_CN/translate.csv
@@ -8,9 +9,14 @@ CosmoCommerce_ChineseLocale.xml                          app/etc/modules/CosmoCo
 
 CosmoCommerce_Customer.xml                          app/etc/modules/CosmoCommerce_Customer.xml
 Customer                                   app/code/community/CosmoCommerce/Customer
+template_customer/name.phtml                             app/design/frontend/default/default/template/customer/widget/name.phtml
+
+
 CosmoCommerce_Sales.xml                          app/etc/modules/CosmoCommerce_Sales.xml
 Sales                                   app/code/community/CosmoCommerce/Sales
-template_customer/name.phtml                             app/design/frontend/default/default/template/customer/widget/name.phtml
+
+
+
 wysiwyg/langs/zh.js  js/tiny_mce/langs/zh.js
 wysiwyg/themes/advanced/langs/zh.js  js/tiny_mce/themes/advanced/langs/zh.js
 wysiwyg/themes/advanced/langs/zh_dlg.js  js/tiny_mce/themes/advanced/langs/zh_dlg.js

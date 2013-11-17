@@ -28,15 +28,12 @@
             <version>1.0.0</version>
         </CosmoCommerce_Sales>
     </modules>
-    
-    
-    
-    
     <global> 
         <blocks>
             <sales>
                 <rewrite>
                     <order_history>CosmoCommerce_Sales_Block_Order_History</order_history>
+                    <order_recent>CosmoCommerce_Sales_Block_Order_Recent</order_recent>
                 </rewrite>
             </sales>
         </blocks>
