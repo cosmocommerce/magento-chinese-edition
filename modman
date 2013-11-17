@@ -25,3 +25,5 @@ wysiwyg/plugins/style/langs/zh_dlg.js  js/tiny_mce/plugins/style/langs/zh_dlg.js
 wysiwyg/plugins/table/langs/zh_dlg.js  js/tiny_mce/plugins/table/langs/zh_dlg.js
 wysiwyg/plugins/template/langs/zh_dlg.js  js/tiny_mce/plugins/template/langs/zh_dlg.js
 wysiwyg/plugins/xhtmlxtras/langs/zh_dlg.js  js/tiny_mce/plugins/xhtmlxtras/langs/zh_dlg.js
+
+wysiwyg/setup.js js/mage/adminhtml/wysiwyg/tiny_mce/setup.js
