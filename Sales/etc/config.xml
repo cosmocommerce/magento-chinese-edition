@@ -49,6 +49,15 @@
         </models>
     </global>
     <frontend>
+        <translate>
+            <modules>
+                <CosmoCommerce_Sales>
+                    <files>
+                        <default>Mage_Sales.csv</default>
+                    </files>
+                </CosmoCommerce_Sales>
+            </modules>
+        </translate>
         <routers>
             <sales>
                 <args>
