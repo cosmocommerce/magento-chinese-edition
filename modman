@@ -8,4 +8,20 @@ CosmoCommerce_ChineseLocale.xml                          app/etc/modules/CosmoCo
 CosmoCommerce_Customer.xml                          app/etc/modules/CosmoCommerce_Customer.xml
 Customer                                   app/code/community/CosmoCommerce/Customer
 template_customer/name.phtml                             app/design/frontend/default/default/template/customer/widget/name.phtml
-wysiwyg/langs/zh_CN.js  js/tiny_mce/langs/zh_CN.js
+wysiwyg/langs/zh.js  js/tiny_mce/langs/zh.js
+wysiwyg/themes/advanced/langs/zh.js  js/tiny_mce/themes/advanced/langs/zh.js
+wysiwyg/themes/advanced/langs/zh_dlg.js  js/tiny_mce/themes/advanced/langs/zh_dlg.js
+wysiwyg/themes/simple/langs/zh.js  js/tiny_mce/themes/simple/langs/zh.js
+
+wysiwyg/plugins/advhr/langs/zh_dlg.js  js/tiny_mce/plugins/advhr/langs/zh_dlg.js
+wysiwyg/plugins/advimage/langs/zh_dlg.js  js/tiny_mce/plugins/advimage/langs/zh_dlg.js
+wysiwyg/plugins/advlink/langs/zh_dlg.js  js/tiny_mce/plugins/advlink/langs/zh_dlg.js
+wysiwyg/plugins/emotions/langs/zh_dlg.js  js/tiny_mce/plugins/emotions/langs/zh_dlg.js
+wysiwyg/plugins/fullpage/langs/zh_dlg.js  js/tiny_mce/plugins/fullpage/langs/zh_dlg.js
+wysiwyg/plugins/media/langs/zh_dlg.js  js/tiny_mce/plugins/media/langs/zh_dlg.js
+wysiwyg/plugins/paste/langs/zh_dlg.js  js/tiny_mce/plugins/paste/langs/zh_dlg.js
+wysiwyg/plugins/searchreplace/langs/zh_dlg.js  js/tiny_mce/plugins/searchreplace/langs/zh_dlg.js
+wysiwyg/plugins/style/langs/zh_dlg.js  js/tiny_mce/plugins/style/langs/zh_dlg.js
+wysiwyg/plugins/table/langs/zh_dlg.js  js/tiny_mce/plugins/table/langs/zh_dlg.js
+wysiwyg/plugins/template/langs/zh_dlg.js  js/tiny_mce/plugins/template/langs/zh_dlg.js
+wysiwyg/plugins/xhtmlxtras/langs/zh_dlg.js  js/tiny_mce/plugins/xhtmlxtras/langs/zh_dlg.js
