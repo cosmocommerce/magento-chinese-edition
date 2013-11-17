@@ -8,6 +8,8 @@ CosmoCommerce_ChineseLocale.xml                          app/etc/modules/CosmoCo
 
 CosmoCommerce_Customer.xml                          app/etc/modules/CosmoCommerce_Customer.xml
 Customer                                   app/code/community/CosmoCommerce/Customer
+CosmoCommerce_Sales.xml                          app/etc/modules/CosmoCommerce_Sales.xml
+Sales                                   app/code/community/CosmoCommerce/Sales
 template_customer/name.phtml                             app/design/frontend/default/default/template/customer/widget/name.phtml
 wysiwyg/langs/zh.js  js/tiny_mce/langs/zh.js
 wysiwyg/themes/advanced/langs/zh.js  js/tiny_mce/themes/advanced/langs/zh.js
