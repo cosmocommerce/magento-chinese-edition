@@ -7,9 +7,9 @@
 "Block Title","区块标题"
 "Block was successfully deleted","成功删除区块"
 "Block was successfully saved","成功保存方框"
-"CMS","CMS"
-"CMS Home Page","CMS首页"
-"CMS No Route Page","CMS No Route页）"
+"CMS","内容管理"
+"CMS Home Page","内容首页"
+"CMS No Route Page","没有内容导航页"
 "Content","内容"
 "Custom Design","自定义设计"
 "Custom Theme","自定义模版"
@@ -63,3 +63,5 @@
 "Title","标题"
 "Unable to find a block to delete","没有找到要删除的方框"
 "Unable to find a page to delete","没有找到要删除的页面"
+
+"Home","首页"
