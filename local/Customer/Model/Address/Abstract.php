@@ -47,7 +47,7 @@ class Mage_Customer_Model_Address_Abstract extends Mage_Core_Model_Abstract
         if ($config->getAttribute('customer_address', 'prefix')->getIsVisible() && $this->getPrefix()) {
             $name .= $this->getPrefix() . ' ';
         }
-        $name .=  ' af' . $this->getLastname();
+        $name .=  $this->getLastname();
         if ($config->getAttribute('customer_address', 'middlename')->getIsVisible() && $this->getMiddlename()) {
             $name .= ' ' . $this->getMiddlename();
         }

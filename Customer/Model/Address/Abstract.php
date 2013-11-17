@@ -13,7 +13,7 @@ class CosmoCommerce_Customer_Model_Address_Abstract extends Mage_Customer_Model_
         if ($config->getAttribute('customer_address', 'prefix')->getIsVisible() && $this->getPrefix()) {
             $name .= $this->getPrefix() . ' ';
         }
-        $name .=  . $this->getLastname();
+        $name .=  $this->getLastname();
         if ($config->getAttribute('customer_address', 'middlename')->getIsVisible() && $this->getMiddlename()) {
             $name .= ' ' . $this->getMiddlename();
         }
