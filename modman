@@ -1,4 +1,5 @@
 code                                   app/code/community/CosmoCommerce/ChineseLocale
+local/Customer                                   app/code/local/Mage/Customer
 locale/zh_CN/*      app/locale/zh_CN
 template/translate.csv     app/design/frontend/base/default/locale/zh_CN/translate.csv
 template/translate.csv     app/design/frontend/default/default/locale/zh_CN/translate.csv
