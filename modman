@@ -21,7 +21,6 @@ wysiwyg/langs/zh.js  js/tiny_mce/langs/zh.js
 wysiwyg/themes/advanced/langs/zh.js  js/tiny_mce/themes/advanced/langs/zh.js
 wysiwyg/themes/advanced/langs/zh_dlg.js  js/tiny_mce/themes/advanced/langs/zh_dlg.js
 wysiwyg/themes/simple/langs/zh.js  js/tiny_mce/themes/simple/langs/zh.js
-
 wysiwyg/plugins/advhr/langs/zh_dlg.js  js/tiny_mce/plugins/advhr/langs/zh_dlg.js
 wysiwyg/plugins/advimage/langs/zh_dlg.js  js/tiny_mce/plugins/advimage/langs/zh_dlg.js
 wysiwyg/plugins/advlink/langs/zh_dlg.js  js/tiny_mce/plugins/advlink/langs/zh_dlg.js
@@ -34,5 +33,41 @@ wysiwyg/plugins/style/langs/zh_dlg.js  js/tiny_mce/plugins/style/langs/zh_dlg.js
 wysiwyg/plugins/table/langs/zh_dlg.js  js/tiny_mce/plugins/table/langs/zh_dlg.js
 wysiwyg/plugins/template/langs/zh_dlg.js  js/tiny_mce/plugins/template/langs/zh_dlg.js
 wysiwyg/plugins/xhtmlxtras/langs/zh_dlg.js  js/tiny_mce/plugins/xhtmlxtras/langs/zh_dlg.js
+
+wysiwyg/langs/cn.js  js/tiny_mce/langs/cn.js
+wysiwyg/themes/advanced/langs/cn.js  js/tiny_mce/themes/advanced/langs/cn.js
+wysiwyg/themes/advanced/langs/cn_dlg.js  js/tiny_mce/themes/advanced/langs/cn_dlg.js
+wysiwyg/themes/simple/langs/cn.js  js/tiny_mce/themes/simple/langs/cn.js
+wysiwyg/plugins/advhr/langs/cn_dlg.js  js/tiny_mce/plugins/advhr/langs/cn_dlg.js
+wysiwyg/plugins/advimage/langs/cn_dlg.js  js/tiny_mce/plugins/advimage/langs/cn_dlg.js
+wysiwyg/plugins/advlink/langs/cn_dlg.js  js/tiny_mce/plugins/advlink/langs/cn_dlg.js
+wysiwyg/plugins/emotions/langs/cn_dlg.js  js/tiny_mce/plugins/emotions/langs/cn_dlg.js
+wysiwyg/plugins/fullpage/langs/cn_dlg.js  js/tiny_mce/plugins/fullpage/langs/cn_dlg.js
+wysiwyg/plugins/media/langs/cn_dlg.js  js/tiny_mce/plugins/media/langs/cn_dlg.js
+wysiwyg/plugins/paste/langs/cn_dlg.js  js/tiny_mce/plugins/paste/langs/cn_dlg.js
+wysiwyg/plugins/searchreplace/langs/cn_dlg.js  js/tiny_mce/plugins/searchreplace/langs/cn_dlg.js
+wysiwyg/plugins/style/langs/cn_dlg.js  js/tiny_mce/plugins/style/langs/cn_dlg.js
+wysiwyg/plugins/table/langs/cn_dlg.js  js/tiny_mce/plugins/table/langs/cn_dlg.js
+wysiwyg/plugins/template/langs/cn_dlg.js  js/tiny_mce/plugins/template/langs/cn_dlg.js
+wysiwyg/plugins/xhtmlxtras/langs/cn_dlg.js  js/tiny_mce/plugins/xhtmlxtras/langs/cn_dlg.js
+
+
+wysiwyg/langs/zh-cn.js  js/tiny_mce/langs/zh-cn.js
+wysiwyg/themes/advanced/langs/zh-cn.js  js/tiny_mce/themes/advanced/langs/zh-cn.js
+wysiwyg/themes/advanced/langs/zh-cn_dlg.js  js/tiny_mce/themes/advanced/langs/zh-cn_dlg.js
+wysiwyg/themes/simple/langs/zh-cn.js  js/tiny_mce/themes/simple/langs/zh-cn.js
+
+wysiwyg/plugins/advhr/langs/zh-cn_dlg.js  js/tiny_mce/plugins/advhr/langs/zh-cn_dlg.js
+wysiwyg/plugins/advimage/langs/zh-cn_dlg.js  js/tiny_mce/plugins/advimage/langs/zh-cn_dlg.js
+wysiwyg/plugins/advlink/langs/zh-cn_dlg.js  js/tiny_mce/plugins/advlink/langs/zh-cn_dlg.js
+wysiwyg/plugins/emotions/langs/zh-cn_dlg.js  js/tiny_mce/plugins/emotions/langs/zh-cn_dlg.js
+wysiwyg/plugins/fullpage/langs/zh-cn_dlg.js  js/tiny_mce/plugins/fullpage/langs/zh-cn_dlg.js
+wysiwyg/plugins/media/langs/zh-cn_dlg.js  js/tiny_mce/plugins/media/langs/zh-cn_dlg.js
+wysiwyg/plugins/paste/langs/zh-cn_dlg.js  js/tiny_mce/plugins/paste/langs/zh-cn_dlg.js
+wysiwyg/plugins/searchreplace/langs/zh-cn_dlg.js  js/tiny_mce/plugins/searchreplace/langs/zh-cn_dlg.js
+wysiwyg/plugins/style/langs/zh-cn_dlg.js  js/tiny_mce/plugins/style/langs/zh-cn_dlg.js
+wysiwyg/plugins/table/langs/zh-cn_dlg.js  js/tiny_mce/plugins/table/langs/zh-cn_dlg.js
+wysiwyg/plugins/template/langs/zh-cn_dlg.js  js/tiny_mce/plugins/template/langs/zh-cn_dlg.js
+wysiwyg/plugins/xhtmlxtras/langs/zh-cn_dlg.js  js/tiny_mce/plugins/xhtmlxtras/langs/zh-cn_dlg.js
 
 wysiwyg/setup.js js/mage/adminhtml/wysiwyg/tiny_mce/setup.js
