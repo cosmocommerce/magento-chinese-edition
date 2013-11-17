@@ -503,7 +503,6 @@
 "Validate each address separately in multi-address checkout","使用多地址结帐时对每个地址分别进行验证"
 "View","显示"
 "View All","显示全部"
-"View Order","查看订单"
 "Void","注销"
 "Void invoice","注销发票"
 "Website","网站"
@@ -517,3 +516,5 @@
 "Sales","销售管理"
 "Shipments","货物清单"
 "Transactions","交易记录"
+"Repay","继续支付"
+"View Order","查看订单"
