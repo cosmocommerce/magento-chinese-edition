@@ -34,6 +34,7 @@
                 <rewrite>
                     <customer>CosmoCommerce_Customer_Model_Customer</customer>
                     <form>CosmoCommerce_Customer_Model_Form</form>
+                    <address_abstract>CosmoCommerce_Customer_Model_Address_Abstract</address_abstract>
                 </rewrite>
             </customer>
 <!--        
