@@ -511,4 +511,9 @@
 "You have placed no orders.","您没有下订单。"
 "ZIP/Post Code","邮编"
 "separate by "",""","用"",""分开"
-"My Orders","My Orders"
+"My Orders","我的订单"
+"Last Ordered Items","历史订单"
+
+"Sales","销售管理"
+"Shipments","货物清单"
+"Transactions","交易记录"
