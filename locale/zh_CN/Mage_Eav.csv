@@ -31,7 +31,7 @@
 "Joined field with this alias (%s) is already declared","该别名(%s)的联合字段已声明"
 "Joined field with this alias is already declared","该别名的联合字段已声明"
 "Loaded %d records","%d记录已加载。"
-"No","无"
+"No","否"
 "No options found in config node %s","配置节点%s下未找到选项"
 "Problem loading a record, aborting. Error: %s","加载记录出错，退出。错误：%s"
 "Problem loading the collection, aborting. Error: %s","加载时出现错误，终止中。错误信息：%s"
@@ -48,3 +48,4 @@
 "Wrong attribute set ID","属性组合编号错误"
 "Wrong entity ID","实体编号错误"
 "Yes","是"
+"Please select a static block ...","请选择静态块 ..."
