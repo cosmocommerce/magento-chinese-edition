@@ -38,5 +38,12 @@
                 </args>
             </chineselocale>
         </routers>  
+        <blocks>
+			<adminhtml>
+				<rewrite>
+					<catalog_product_edit_tabs>CosmoCommerce_ChineseLocale_Block_Adminhtml_Catalog_Product_Edit_Tabs</catalog_product_edit_tabs>
+				</rewrite>
+			</adminhtml>
+        </blocks>
     </frontend>
 </config>
