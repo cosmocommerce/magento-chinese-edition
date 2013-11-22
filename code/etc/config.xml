@@ -25,10 +25,15 @@
 <config>
     <modules>
         <CosmoCommerce_ChineseLocale>
-            <version>1.1.0</version>
+            <version>1.1.1</version>
         </CosmoCommerce_ChineseLocale>
     </modules>
     <global>
+        <models>
+            <chineselocale_mysql4>
+                <class>CosmoCommerce_ChineseLocale_Model_Mysql4</class>
+            </chineselocale_mysql4>
+        </models>
         <blocks>
 			<adminhtml>
 				<rewrite>
