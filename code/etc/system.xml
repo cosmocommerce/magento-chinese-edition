@@ -27,7 +27,7 @@
         <locale>
             <groups>
                 <chinese module="chineselocale">
-                    <label> chineselocale</label>
+                    <label>chineselocale</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>300</sort_order>
                     <show_in_default>1</show_in_default>

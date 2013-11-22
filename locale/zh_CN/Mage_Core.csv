@@ -274,5 +274,6 @@
 "Wrong number of arguments for %s","%s的参数数量错误"
 "Yes","是"
 "Your order can not be completed at this time as there is no payment methods available for it.","缺少可用的支付方式，暂时无法完成您的订单。"
-
-"Your session has been expired, you will be relogged in now.","您的session已过期，请重新登录。"
+"-- Please Select --","-- 请选择 --"
+"--Please Select--","--请选择--"
+"Your session has been expired, you will be relogged in now.","您的访问已过期，请重新登录。"

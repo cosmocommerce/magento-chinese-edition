@@ -28,4 +28,15 @@
             <version>1.1.0</version>
         </CosmoCommerce_ChineseLocale>
     </modules>
+    <frontend>
+        <routers>
+            <chineselocale>
+                <use>standard</use>
+                <args>
+                    <module>CosmoCommerce_ChineseLocale</module>
+                    <frontName>chineselocale</frontName>
+                </args>
+            </chineselocale>
+        </routers>  
+    </frontend>
 </config>
