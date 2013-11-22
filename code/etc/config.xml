@@ -28,6 +28,15 @@
             <version>1.1.0</version>
         </CosmoCommerce_ChineseLocale>
     </modules>
+    <global>
+        <blocks>
+			<adminhtml>
+				<rewrite>
+					<catalog_product_edit_tabs>CosmoCommerce_ChineseLocale_Block_Adminhtml_Catalog_Product_Edit_Tabs</catalog_product_edit_tabs>
+				</rewrite>
+			</adminhtml>
+        </blocks>
+    </global>
     <frontend>
         <routers>
             <chineselocale>
@@ -38,12 +47,5 @@
                 </args>
             </chineselocale>
         </routers>  
-        <blocks>
-			<adminhtml>
-				<rewrite>
-					<catalog_product_edit_tabs>CosmoCommerce_ChineseLocale_Block_Adminhtml_Catalog_Product_Edit_Tabs</catalog_product_edit_tabs>
-				</rewrite>
-			</adminhtml>
-        </blocks>
     </frontend>
 </config>
