@@ -445,7 +445,7 @@
 "Sku","Sku"
 "Some items have quantities exceeding allowed quantities. Please select a lower quantity to checkout.","某些商品的数量超过限制，，请减少数量后结帐。"
 "Some of the products below don't have all the required options. Please remove them and add again with all the required options.","以下部分产品选项不完整。请将其删除、补充所有必选项再重新添加。"
-"Sorry, no quotes are available for this order at this time.","对不起，目前没有该订单的报价。"
+"Sorry, no quotes are available for this order at this time.","对不起，目前无法配送此订单。"
 "Source object is not specified.","没指定的源文件。"
 "State/Province","省份"
 "Status","状态"
