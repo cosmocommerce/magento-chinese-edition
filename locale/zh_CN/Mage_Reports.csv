@@ -154,4 +154,6 @@
 "Applies to Any of the Specified Order Statuses","显示特定状态的订单"
 "Sales Items","购买商品"
 "Sales Total","购买总价"
-"Sales Tax","购物税"
+"Sales Tax","税"
+"Sales Shipping","运费"
+"Sales Discount","优惠"
