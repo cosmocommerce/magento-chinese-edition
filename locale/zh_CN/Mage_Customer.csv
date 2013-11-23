@@ -409,10 +409,18 @@
 "Address Book","地址管理"
 "You have not set a default billing address.","您尚未设置默认的账单地址。"
 "You have not set a default shipping address.","您尚未设置默认的配送地址。"
-
-
+"Date Of Birth","生日"
+"Associate to Website","关联网站"
 "My Dashboard","我的控制面板"
 "My Product Reviews","我的评价"
 "The account information has been saved.","用户信息已经保存。"
 "Last URL","最后访问页面URL"
 "Ship To","收货人"
+"Disable Automatic Group Change Based on VAT ID","禁用组别自动同步"
+"Middle Name/Initial","首字母"
+"Tax/VAT Number","税号"
+"Gender","性别"
+"Send Welcome Email",发送欢迎邮件
+"Send Auto-Generated Password","发送随机密码"
+"VAT Number","税号"
+"the order confirmation email is not sent","尚未发送订单确认邮件"
