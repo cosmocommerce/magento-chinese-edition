@@ -1,5 +1,5 @@
 " The customer doesn't exist in the system anymore","该客户已不存在系统中"
-"""%s"" coupon code is not valid.","""%s""优惠券代码不正确。"
+"""%s"" coupon code is not valid.","""%s""优惠券编号不正确。"
 "%s / %s rate:","比例： %s / %s "
 "%s for %s","%s for %s"
 "%s order(s) successfully canceled","成功取消 %s 个订单"
@@ -527,3 +527,6 @@
 "Number of Orders","订单数"
 "Number of Invoiced Orders","已出发票订单数"
 "Total Invoiced","总发票"
+"Active","激活"
+"Inactive","未激活"
+"If %s %s %s for a subselection of items in cart matching %s of these conditions:","如果购物车有 %s %s %s 个商品满足下列条件的 %s:"
