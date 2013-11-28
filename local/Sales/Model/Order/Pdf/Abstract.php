@@ -300,7 +300,7 @@ abstract class Mage_Sales_Model_Order_Pdf_Abstract extends Varien_Object
             'UTF-8'
         );
 
-        $top -= 10;
+        $top -= 15;
         $page->setFillColor(new Zend_Pdf_Color_Rgb(0.93, 0.92, 0.92));
         $page->setLineColor(new Zend_Pdf_Color_GrayScale(0.5));
         $page->setLineWidth(0.5);
@@ -334,12 +334,12 @@ abstract class Mage_Sales_Model_Order_Pdf_Abstract extends Varien_Object
 
         $page->setFillColor(new Zend_Pdf_Color_GrayScale(0));
         $this->_setFontBold($page, 12);
-        $page->drawText(Mage::helper('sales')->__('Sold to:'), 35, ($top - 15), 'UTF-8');
+        $page->drawText(Mage::helper('sales')->__('Sold to:'), 35, ($top - 20), 'UTF-8');
 
         if (!$order->getIsVirtual()) {
-            $page->drawText(Mage::helper('sales')->__('Ship to:'), 285, ($top - 15), 'UTF-8');
+            $page->drawText(Mage::helper('sales')->__('Ship to:'), 285, ($top - 20), 'UTF-8');
         } else {
-            $page->drawText(Mage::helper('sales')->__('Payment Method:'), 285, ($top - 15), 'UTF-8');
+            $page->drawText(Mage::helper('sales')->__('Payment Method:'), 285, ($top - 20), 'UTF-8');
         }
 
         $addressesHeight = $this->_calcAddressHeight($billingAddress);
@@ -392,13 +392,13 @@ abstract class Mage_Sales_Model_Order_Pdf_Abstract extends Varien_Object
             $page->drawRectangle(25, $this->y, 275, $this->y-25);
             $page->drawRectangle(275, $this->y, 570, $this->y-25);
 
-            $this->y -= 15;
+            $this->y -= 20;
             $this->_setFontBold($page, 12);
             $page->setFillColor(new Zend_Pdf_Color_GrayScale(0));
             $page->drawText(Mage::helper('sales')->__('Payment Method'), 35, $this->y, 'UTF-8');
             $page->drawText(Mage::helper('sales')->__('Shipping Method:'), 285, $this->y , 'UTF-8');
 
-            $this->y -=10;
+            $this->y -=5;
             $page->setFillColor(new Zend_Pdf_Color_GrayScale(1));
 
             $this->_setFontRegular($page, 10);
@@ -500,6 +500,8 @@ abstract class Mage_Sales_Model_Order_Pdf_Abstract extends Varien_Object
             $this->y = $currentY;
             $this->y -= 15;
         }
+        
+        
     }
 
     /**
@@ -515,6 +517,7 @@ abstract class Mage_Sales_Model_Order_Pdf_Abstract extends Varien_Object
         $this->_setFontRegular($page, 10);
         $docHeader = $this->getDocHeaderCoordinates();
         $page->drawText($text, 35, $docHeader[1] - 15, 'UTF-8');
+        
     }
 
     /**
