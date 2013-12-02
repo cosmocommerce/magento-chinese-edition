@@ -3,8 +3,49 @@
 
     <checkout_onepage_index translate="label">
         <label>One Page Checkout</label>
+        <!-- Mage_Checkout -->
+        <remove name="left"/>
         <reference name="head">
             <action method="addItem"><type>skin_js</type><script>js/area.js</script></action>
         </reference>
-    </checkout_onepage_index>
+
+        <reference name="root">
+            <action method="setTemplate"><template>page/2columns-right.phtml</template></action>
+        </reference>
+        <reference name="right">
+            <action method="unsetChildren"></action>
+            <block type="page/html_wrapper" name="checkout.progress.wrapper" translate="label">
+                <label>Checkout Progress Wrapper</label>
+                <action method="setElementId"><value>checkout-progress-wrapper</value></action>
+                <block type="checkout/onepage_progress" name="checkout.progress" before="-" template="checkout/onepage/progress.phtml">
+                    <block type="checkout/onepage_progress" name="billing.progress" template="checkout/onepage/progress/billing.phtml"></block>
+                    <block type="checkout/onepage_progress" name="shipping.progress" template="checkout/onepage/progress/shipping.phtml"></block>
+                    <block type="checkout/onepage_progress" name="shippingmethod.progress" template="checkout/onepage/progress/shipping_method.phtml"></block>
+                    <block type="checkout/onepage_progress" name="payment.progress" template="checkout/onepage/progress/payment.phtml"></block>
+                </block>
+            </block>
+        </reference>
+        <reference name="content">
+            <block type="checkout/onepage" name="checkout.onepage" template="checkout/onepage.phtml">
+                <block type="checkout/onepage_login" name="checkout.onepage.login" as="login" template="checkout/onepage/login.phtml">
+                    <block type="page/html_wrapper" name="checkout.onepage.login.before" as="login_before" translate="label">
+                        <label>Login/Registration Before</label>
+                        <action method="setMayBeInvisible"><value>1</value></action>
+                    </block>
+                </block>
+                <block type="checkout/onepage_billing" name="checkout.onepage.billing" as="billing" template="checkout/onepage/billing.phtml"/>
+                <block type="checkout/onepage_shipping" name="checkout.onepage.shipping" as="shipping" template="checkout/onepage/shipping.phtml"/>
+                <block type="checkout/onepage_shipping_method" name="checkout.onepage.shipping_method" as="shipping_method" template="checkout/onepage/shipping_method.phtml">
+                    <block type="checkout/onepage_shipping_method_available" name="checkout.onepage.shipping_method.available" as="available" template="checkout/onepage/shipping_method/available.phtml"/>
+                    <block type="checkout/onepage_shipping_method_additional" name="checkout.onepage.shipping_method.additional" as="additional" template="checkout/onepage/shipping_method/additional.phtml"/>
+                </block>
+                <block type="checkout/onepage_payment" name="checkout.onepage.payment" as="payment" template="checkout/onepage/payment.phtml">
+                    <block type="checkout/onepage_payment_methods" name="checkout.payment.methods" as="methods" template="checkout/onepage/payment/info.phtml">
+                        <action method="setMethodFormTemplate"><method>purchaseorder</method><template>payment/form/purchaseorder.phtml</template></action>
+                    </block>
+                </block>
+                <block type="checkout/onepage_review" name="checkout.onepage.review" as="review" template="checkout/onepage/review.phtml"/>
+            </block>
+        </reference>
+    </checkout_onepage_index> 
 </layout>

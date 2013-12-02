@@ -119,7 +119,8 @@ var LocalList = {
 			current: '',
 			language: 'zh_cn',
 			path_to_xml: '',
-			read_only: false
+			read_only: false,
+			type: 'billing'
 		};
 		for (var i in this.mo_options) {
 			if (options[i]) this.mo_options[i] = options[i];
@@ -129,14 +130,14 @@ var LocalList = {
 		if (this.mo_options.read_only) {
 			document.write('<label id="' + this.mo_options.city + '"></label>');
 		} else {
-			document.write('<select id="' + this.mo_options.country + '" name="' + this.mo_options.country + '" onChange="LocalList.mf_processStateList()"></select>&nbsp;');
-			document.write('<select id="' + this.mo_options.state + '" name="' + this.mo_options.state + '" onChange="LocalList.mf_processCityList()"></select>&nbsp;');
-			document.write('<select id="' + this.mo_options.city + '" name="' + this.mo_options.city + '"></select>&nbsp;');
-			this.mo_countryObj = document.getElementById(this.mo_options.country);
-			this.mo_stateObj = document.getElementById(this.mo_options.state);
+			document.write('<select id="' +this.mo_options.type+":"+this.mo_options.country + '" name="'  +this.mo_options.type+"["+ this.mo_options.country + "]"+ '" onChange="LocalList.mf_processStateList()"></select>&nbsp;');
+			document.write('<select id="' +this.mo_options.type+":"+this.mo_options.state + '" name="' +this.mo_options.type+"["+this.mo_options.state + "]"+'" onChange="LocalList.mf_processCityList()"></select>&nbsp;');
+			document.write('<select id="' +this.mo_options.type+":"+this.mo_options.city + '" name="' +this.mo_options.type+"["+this.mo_options.city + "]"+ '" onChange="LocalList.mf_selcectCityList()"></select>&nbsp;');
+			this.mo_countryObj = document.getElementById(this.mo_options.type+":"+this.mo_options.country);
+			this.mo_stateObj = document.getElementById(this.mo_options.type+":"+this.mo_options.state);
 		}
 		
-		this.mo_cityObj = document.getElementById(this.mo_options.city);
+		this.mo_cityObj = document.getElementById(this.mo_options.type+":"+this.mo_options.city);
 
 		if (LocalList.mo_options.read_only && (!this.mo_options.current || this.mo_options.current == '||')) {
 			this.mo_cityObj.innerHTML = '-';
@@ -264,7 +265,7 @@ var LocalList = {
 			ld_value = lo_Countrys[l_i].getAttribute("Code");
 			Util_List.mf_add(this.mo_countryObj, ld_text, ld_value);
 		}
-		lo_CountryDivObj.style.display = "inline";
+		lo_CountryDivObj.style.display = "none";
 		this.mf_processStateList();
 	},
 	
@@ -273,6 +274,8 @@ var LocalList = {
 			return;
 		}
 		var lo_StateDivObj = this.mo_stateObj;
+        lo_StateDivObj.style.display = "inline";
+        lo_StateDivObj.style.width = "150px";
 //		lo_StateDivObj.style.display = "none";
 		Util_List.mf_clear(this.mo_stateObj);
 		do {
@@ -300,7 +303,6 @@ var LocalList = {
 				ld_value = lo_States[l_i].getAttribute("Code");
 				Util_List.mf_add(this.mo_stateObj, ld_text, ld_value);
 			}
-			lo_StateDivObj.style.display = "inline";
 			if (this.md_bUpdate && (Util_List.mf_isempty(this.mo_stateObj))) {
 				this.mo_stateObj.focus();
 			}
@@ -316,6 +318,8 @@ var LocalList = {
 			return;
 		}
 		var lo_CityDivObj = this.mo_cityObj;
+        lo_CityDivObj.style.display = "inline";
+        lo_CityDivObj.style.width = "150px";
 //		lo_CityDivObj.style.display = "none";
 		Util_List.mf_clear(this.mo_cityObj);
 		do {
@@ -356,7 +360,6 @@ var LocalList = {
 				ld_value = lo_Citys[l_i].getAttribute("Code");
 				Util_List.mf_add(this.mo_cityObj, ld_text, ld_value);
 			}
-			lo_CityDivObj.style.display = "inline";
 			if (this.md_bUpdate && (Util_List.mf_isempty(this.mo_cityObj))) {
 				this.mo_cityObj.focus();
 			}
@@ -364,5 +367,17 @@ var LocalList = {
 		if (lo_CityDivObj.style.display == "none") {
 			// ErrMapUtil.mf_DelFromErrMap(g_TitleArr[7]);
 		}
+	},
+	
+	mf_selcectCityList : function() {
+        var stateEl=$(this.mo_options.type+":"+this.mo_options.state);
+        var cityEl=$(this.mo_options.type+":"+this.mo_options.city);
+        var stateSel=(stateEl.options[stateEl.selectedIndex].text);
+        if(stateSel=="---"){
+            stateSel="";
+        }
+        var citySel=(cityEl.options[cityEl.selectedIndex].text);
+        $(this.mo_options.type+":city").value=stateSel+citySel;
 	}
+    
 }; 
