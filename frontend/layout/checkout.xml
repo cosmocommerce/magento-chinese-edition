@@ -4,7 +4,7 @@
     <checkout_onepage_index translate="label">
         <label>One Page Checkout</label>
         <reference name="head">
-            <action method="addItem"><type>skin_js</type><name>js/area.js</name></action>
+            <action method="addItem"><type>skin_js</type><script>js/area.js</script></action>
         </reference>
     </checkout_onepage_index>
 </layout>
