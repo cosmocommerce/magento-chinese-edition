@@ -9,7 +9,7 @@
 "Error Email Recipient","错误收件人"
 "Error Email Sender","错误发件人"
 "Error Email Template","错误邮件模版"
-"File ""%s"" cannot be saved. Please, make sure the directory ""%s"" is writeable by web server.","""%s""无法储存。Please, make sure the directory ""%s"" is writeable by web server."
+"File ""%s"" cannot be saved. Please, make sure the directory ""%s"" is writeable by web server.","""%s""无法保存。Please, make sure the directory ""%s"" is writeable by web server."
 "Filename","文件名"
 "Frequency","频率"
 "Generate","生成"

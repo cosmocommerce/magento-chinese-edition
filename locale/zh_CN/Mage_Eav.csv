@@ -36,7 +36,7 @@
 "Problem loading a record, aborting. Error: %s","加载记录出错，退出。错误：%s"
 "Problem loading the collection, aborting. Error: %s","加载时出现错误，终止中。错误信息：%s"
 "Problem saving a record, aborting. Error: ","保存记录出错，退出。错误："
-"Problem saving the collection, aborting. Error: %s","储存时出现错误，终止中。错误信息：%s"
+"Problem saving the collection, aborting. Error: %s","保存时出现错误，终止中。错误信息：%s"
 "Saved ","已保存 "
 "Scope must not be changed, because the attribute is used in configurable products.","范围必须更改，因为属性用于可设置商品。"
 "The attribute code '%s' is reserved by system. Please, try another attribute code.","属性代码'%s'为系统保留代码，请尝试其他的属性代码。"
