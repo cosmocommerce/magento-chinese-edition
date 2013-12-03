@@ -64,7 +64,7 @@ For checkout/onepage/shipping.phtml:
     <div class="field name-fullname">
         <label for="<?php echo $this->getFieldId('fullname')?>" class="required"><em>*</em>名字</label>
         <div class="input-box">
-            <input type="text" id="fullname" name="fullname" value="<?php echo $this->escapeHtml($this->getObject()->getFullname()) ?>" title="名字" maxlength="255" class="input-text " <?php echo $this->getFieldParams() ?> />
+            <input type="text" id="fullname" name="fullname" value="<?php echo $this->escapeHtml($this->getObject()->getLastname().$this->getObject()->getFirstname()) ?>" title="名字" maxlength="255" class="input-text " <?php echo $this->getFieldParams() ?> />
         </div>
     </div>
     <div class="field name-lastname" style="display:none;">

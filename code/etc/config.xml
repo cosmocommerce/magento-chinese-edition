@@ -25,15 +25,40 @@
 <config>
     <modules>
         <CosmoCommerce_ChineseLocale>
-            <version>1.1.4</version>
+            <version>1.1.5</version>
         </CosmoCommerce_ChineseLocale>
     </modules>
     <global>
+        <helpers>
+            <chineselocale>
+                <class>CosmoCommerce_ChineseLocale_Helper</class>
+            </chineselocale>
+        </helpers>
         <models>
             <chineselocale_mysql4>
                 <class>CosmoCommerce_ChineseLocale_Model_Mysql4</class>
             </chineselocale_mysql4>
+            <chineselocale>
+                <class>CosmoCommerce_ChineseLocale_Model</class>
+                <resourceModel>chineselocale_resource</resourceModel>
+            </chineselocale>
+            <chineselocale_resource>
+                <class>Mage_Directory_Model_Resource</class>
+                <deprecatedNode>chineselocale_mysql4</deprecatedNode>
+                <entities>
+                    <city>
+                        <table>chineselocale_city</table>
+                    </city>
+                </entities>
+            </chineselocale_resource>
         </models>
+        <resources>
+            <chineselocale_setup>
+                <setup>
+                    <module>CosmoCommerce_ChineseLocale</module>
+                </setup>
+            </chineselocale_setup>
+        </resources>
         <blocks>
 			<adminhtml>
 				<rewrite>

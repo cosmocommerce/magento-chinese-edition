@@ -9,14 +9,18 @@ CosmoCommerce_ChineseLocale.xml                          app/etc/modules/CosmoCo
 
 CosmoCommerce_Customer.xml                          app/etc/modules/CosmoCommerce_Customer.xml
 Customer                                   app/code/community/CosmoCommerce/Customer
-template_customer/name.phtml                             app/design/frontend/default/default/template/customer/widget/name.phtml
-
+frontend/template/customer/name.phtml       app/design/frontend/cosmo/default/template/customer/widget/name.phtml
+frontend/layout/checkout.xml                app/design/frontend/cosmo/default/layout/checkout.xml
+frontend/template/customer/name.phtml       app/design/frontend/default/default/template/customer/widget/name.phtml
+frontend/layout/checkout.xml                app/design/frontend/default/default/layout/checkout.xml
 
 CosmoCommerce_Sales.xml                          app/etc/modules/CosmoCommerce_Sales.xml
 Sales                                   app/code/community/CosmoCommerce/Sales
 font                                   lib/msyh
 
 
+skin/js/area.js  skin/frontend/cosmo/default/js/area.js
+skin/xml/locale-zh_cn.xml  skin/frontend/cosmo/default/xml/locale-zh_cn.xml
 
 wysiwyg/langs/zh.js  js/tiny_mce/langs/zh.js
 wysiwyg/themes/advanced/langs/zh.js  js/tiny_mce/themes/advanced/langs/zh.js

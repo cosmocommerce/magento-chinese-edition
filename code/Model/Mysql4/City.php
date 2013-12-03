@@ -1,0 +1,4 @@
+<?php
+class CosmoCommerce_ChineseLocale_Model_Mysql4_City extends CosmoCommerce_ChineseLocale_Model_Mysql4_City
+{
+}
