@@ -37,6 +37,11 @@
                     <address_abstract>CosmoCommerce_Customer_Model_Address_Abstract</address_abstract>
                 </rewrite>
             </customer>
+            <customer_resource>
+                <rewrite>
+                    <customer_collection>CosmoCommerce_Customer_Model_Resource_Customer_Collection</customer_collection>
+                </rewrite>
+            </customer_resource>
 <!--        
             <customer_entity>
                 <rewrite>
