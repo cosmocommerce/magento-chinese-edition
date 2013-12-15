@@ -2,7 +2,7 @@
 class CosmoCommerce_Sales_Model_Resource_Order extends Mage_Sales_Model_Resource_Order
     protected function _initVirtualGridColumns()
     {
-        parent::_initVirtualGridColumns();
+        //parent::_initVirtualGridColumns();
         $adapter       = $this->getReadConnection();
         $ifnullFirst   = $adapter->getIfNullSql('{{table}}.firstname', $adapter->quote(''));
         $ifnullLast    = $adapter->getIfNullSql('{{table}}.lastname', $adapter->quote(''));

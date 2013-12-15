@@ -36,11 +36,6 @@
                     <order_recent>CosmoCommerce_Sales_Block_Order_Recent</order_recent>
                 </rewrite>
             </sales>
-            <sales_resource>
-                <rewrite>
-                    <order>CosmoCommerce_Sales_Model_Resource_Order</order>
-                </rewrite>
-            </sales_resource>
         </blocks>
         <models>
             <sales>
@@ -48,6 +43,13 @@
                     <order>CosmoCommerce_Sales_Model_Order</order>
                 </rewrite>
             </sales>
+            <!--
+            <sales_resource>
+                <rewrite>
+                    <order>CosmoCommerce_Sales_Model_Resource_Order</order>
+                </rewrite>
+            </sales_resource>
+            -->
         </models>
     </global>
     <frontend>
