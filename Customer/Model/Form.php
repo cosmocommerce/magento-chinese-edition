@@ -5,7 +5,6 @@ class CosmoCommerce_Customer_Model_Form extends Mage_Customer_Model_Form
     public function extractData(Zend_Controller_Request_Http $request, $scope = null, $scopeOnly = true)
     {
         if($postdata=$request->getPost()){
-        print_r($postdata);exit();
             if(isset($postdata['fullname'])){
                 $fullname=$postdata['fullname'];
                 if($fullname){
