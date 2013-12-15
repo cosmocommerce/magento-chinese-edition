@@ -16,11 +16,32 @@ class CosmoCommerce_ChineseLocale_IndexController extends Mage_Core_Controller_F
 
         foreach ($groups as $code => $name) {
          
-            // insert region 
             $sql = "UPDATE `{$customer_group}` SET `customer_group_code` = \"$name\"  WHERE `customer_group_code` = \"$code\" ;";
        
             $installer->run($sql);
          
+        }
+        
+        
+
+        $core_website = $installer->getTable('core_website'); 
+        $groups=array('base'=>'默认网站');
+        foreach ($groups as $code => $name) {
+            $sql = "UPDATE `{$core_website}` SET `name` = \"$name\"  WHERE `code` = \"$code\" ;";
+            $installer->run($sql);
+        }
+        $core_store_group = $installer->getTable('core_store_group'); 
+        $groups=array('Main Website Store'=>'默认网站');
+        foreach ($groups as $code => $name) {
+            $sql = "UPDATE `{$core_store_group}` SET `name` = \"$name\"  WHERE `name` = \"$code\" ;";
+            $installer->run($sql);
+        }
+        	
+        $core_store = $installer->getTable('core_store'); 
+        $groups=array('default'=>'默认商店');
+        foreach ($groups as $code => $name) {
+            $sql = "UPDATE `{$core_store}` SET `name` = \"$name\"  WHERE `code` = \"$code\" ;";
+            $installer->run($sql);
         }
         echo 'done';
 
