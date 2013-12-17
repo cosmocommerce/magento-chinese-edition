@@ -131,8 +131,7 @@
 "Block Information","区块信息"
 "Both (without and with tax)","共用（含于不含税）"
 "Browse Available Extensions","浏览可用插件"
-"Browse Available Remote Extensions","浏览可用的远程插件"
-"Browse Files...","浏览文件..."
+"Browse Available Remote Extensions","浏览可用的远程插件" 
 "Bundle Items","配套商品"
 "Bundle with dynamic pricing cannot include custom defined options. Options will not be saved.","具有动态价格的包裹不能含有自定选项。选项设置不会被保存。"
 "CRITICAL","关键性的"
@@ -1083,3 +1082,5 @@
 "You have %s unread message(s). <a href=""%s"">Go to messages inbox</a>.","您有 %s 条未读消息。 点击进入 <a href=""%s"">收件箱</a>。"
 "You have %s unread message(s).","您有 %s 条未读消息。"
 "Go to messages inbox","收件箱"
+
+"Browse Files...","浏览文件"
