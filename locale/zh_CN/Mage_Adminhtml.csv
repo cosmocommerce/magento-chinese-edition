@@ -71,7 +71,7 @@
 "Add new store view map","给新商店视图添加地图"
 "Add new website map","添加新网站地图"
 "Address Type:","地址类型："
-"Admin","管理"
+"Admin","管理后台"
 "Advanced Admin Section","高级管理员单元"
 "Advanced Profiles","高级用户（的设置）"
 "Advanced Section","高级单元"
@@ -709,7 +709,7 @@
 "Remote URL:","远程网址："
 "Remove","删除"
 "Reports","报告"
-"Request Path","要求的Path"
+"Request Path","访问路径"
 "Required","必选"
 "Reset","重置"
 "Reset Filter","重置过滤"
@@ -1085,3 +1085,9 @@
 
 "Browse Files...","浏览文件"
 "The role has been successfully saved.","权限已经保存."
+"Add URL Rewrite","添加路径重写"
+"Add URL Rewrite for a Category","添加分类路径重写"
+"Add URL Rewrite for a Product"","添加商品路径重写"
+
+"Male","男"
+"Female","女"

@@ -92,6 +92,12 @@ foreach($customerAttrIds as $_attribute_id){
 $directory_country_region = $installer->getTable('directory_country_region');
 $directory_country_region_name = $installer->getTable('directory_country_region_name');
 
+$installer->run("
+    TRUNCATE table `{$directory_country_region}`;
+");
+$installer->run("
+    TRUNCATE table `{$directory_country_region_name}`;
+");
 
 $regions=array(
  'BJ'=>'±±¾©',

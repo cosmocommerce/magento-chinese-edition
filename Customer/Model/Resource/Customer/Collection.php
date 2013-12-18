@@ -19,7 +19,7 @@ class CosmoCommerce_Customer_Model_Resource_Customer_Collection extends Mage_Cus
                 $adapter->getConcatSql(array('LTRIM(RTRIM({{prefix}}))', '\' \'')),
                 '\'\'');
         }
-        $concatenate[] = 'LTRIM(RTRIM({{firstname}}))';
+        $concatenate[] = 'LTRIM(RTRIM({{lastname}}))';
         $concatenate[] = '\'\'';
         if (isset($fields['middlename'])) {
             $concatenate[] = $adapter->getCheckSql(
@@ -27,7 +27,7 @@ class CosmoCommerce_Customer_Model_Resource_Customer_Collection extends Mage_Cus
                 $adapter->getConcatSql(array('LTRIM(RTRIM({{middlename}}))', '\' \'')),
                 '\'\'');
         }
-        $concatenate[] = 'LTRIM(RTRIM({{lastname}}))';
+        $concatenate[] = 'LTRIM(RTRIM({{firstname}}))';
         if (isset($fields['suffix'])) {
             $concatenate[] = $adapter
                     ->getCheckSql('{{suffix}} IS NOT NULL AND {{suffix}} != \'\'',

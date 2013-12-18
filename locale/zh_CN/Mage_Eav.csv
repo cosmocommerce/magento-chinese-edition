@@ -49,3 +49,5 @@
 "Wrong entity ID","实体编号错误"
 "Yes","是"
 "Please select a static block ...","请选择模块 ..."
+
+"For internal use. Must be unique with no spaces. Maximum length of attribute code must be less then %s symbols","内部标识,必须不包含空格. 最多 %s 字符."
