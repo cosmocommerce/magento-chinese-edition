@@ -1,0 +1,71 @@
+{* This is a comment block
+
+Use vars: {{var var_name}}
+*}<!--@subject 支付失败通知 @-->
+<!--@vars
+{"var reason":"Transaction Failed Reason",
+"var checkoutType":"Checkout Type",
+"var customerEmail":"Customer Email",
+"var customer":"Customer Name",
+"var items":"Shopping Cart Items",
+"var total":"Total",
+"var billingAddress.format('html')":"Billing Address",
+"var shippingAddress.format('html')":"Shipping Address",
+"var shippingMethod":"Shipping Method",
+"var paymentMethod":"Payment Method",
+"var dateAndTime":"Date and Time of Transaction"}
+@-->
+
+<table>
+    <thead>
+        <tr>
+            <th>您的此次交易失败。</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <p>
+                    <b>原因如下：</b><br />
+                    {{var reason}}
+                </p>
+                <p>
+                    <b>支付方式为：</b><br />
+                    {{var checkoutType}}
+                </p>
+                <p>
+                    <b>顾客：</b><br />
+                    <a href="mailto:{{var customerEmail}}">{{var customer}}</a> &lt;{{var customerEmail}}&gt;
+                </p>
+                <p>
+                    <b>购买商品：</b><br />
+                    {{var items}}
+                </p>
+                <p>
+                    <b>总计：</b><br />
+                    {{var total}}
+                </p>
+                <p>
+                    <b>账单地址：</b><br />
+                    {{var billingAddress.format('html')}}
+                </p>
+                <p>
+                    <b>收件地址：</b><br />
+                    {{var shippingAddress.format('html')}}
+                </p>
+                <p>
+                    <b>配送方式：</b><br />
+                    {{var shippingMethod}}
+                </p>
+                <p>
+                    <b>支付方式：</b><br />
+                    {{var paymentMethod}}
+                </p>
+                <p>
+                    <b>购买时间：</b><br />
+                    {{var dateAndTime}}
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
