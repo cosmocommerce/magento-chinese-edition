@@ -41,8 +41,16 @@
             <sales>
                 <rewrite>
                     <order>CosmoCommerce_Sales_Model_Order</order>
+                    <order_config>CosmoCommerce_Sales_Model_Order_Config</order_config>
                 </rewrite>
             </sales>
+            <!--
+            <sales_resource>
+                <rewrite>
+                    <order>CosmoCommerce_Sales_Model_Resource_Order</order>
+                </rewrite>
+            </sales_resource>
+            -->
         </models>
     </global>
     <frontend>

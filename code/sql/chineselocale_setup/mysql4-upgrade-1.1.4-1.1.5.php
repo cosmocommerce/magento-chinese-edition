@@ -6,7 +6,7 @@ $installer->startSetup();
 
 $installer->run("
 
--- DROP TABLE IF EXISTS {$this->getTable('chineselocale_city')};
+DROP TABLE IF EXISTS {$this->getTable('chineselocale_city')};
 CREATE TABLE {$this->getTable('chineselocale_city')} (
   `city_id` mediumint(8) unsigned NOT NULL auto_increment,
   `region_id` mediumint(8) unsigned NOT NULL default '0',

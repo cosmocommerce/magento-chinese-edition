@@ -26,7 +26,7 @@
 "Before modifying the store view code please make sure that it is not used in index.php","在修改商店界面代码前，请确认没有在index.php中使用"
 "Before modifying the website code please make sure that it is not used in index.php","在修改网站代码前，请确认没有在index.php中使用"
 "Block with name ""%s"" already exists","区块名""%s""已经存在。"
-"Blocks HTML output","区块 HTML 输出"
+"Blocks HTML output","模块缓存"
 "Can't retrieve request object","无法读取要求的实体。"
 "Can't retrieve entity config: %s","无法获取实体配置：%s"
 "Cancel","取消"
