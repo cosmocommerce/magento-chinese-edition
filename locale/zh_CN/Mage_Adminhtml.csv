@@ -1082,7 +1082,7 @@
 "You have %s unread message(s). <a href=""%s"">Go to messages inbox</a>.","您有 %s 条未读消息。 点击进入 <a href=""%s"">收件箱</a>。"
 "You have %s unread message(s).","您有 %s 条未读消息。"
 "Go to messages inbox","收件箱"
-
+"The invoice has been created.","发票已创建。"
 "Browse Files...","浏览文件"
 "The role has been successfully saved.","权限已经保存."
 "Add URL Rewrite","添加路径重写"

@@ -8,8 +8,8 @@
 "Mark as Read","标记为已读"
 "Mark as read","标记为已读"
 "Message","信息"
-"Message was successfully marked as read","成功将信息标记为已读状态"
-"Message was successfully removed","成功删除信息"
+"The message has been marked as read.","成功将信息标记为已读状态"
+"The message was successfully removed","成功删除信息"
 "Messages Inbox","信息箱"
 "Notifications","告示"
 "Please select messages","请选择信息"
@@ -27,3 +27,4 @@
 "major","主要"
 "minor","次要"
 "notice","公告"
+

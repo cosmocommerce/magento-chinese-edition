@@ -240,7 +240,7 @@
 "Payment Method","支付方式"
 "Pending","待审"
 "Per Website","独立网站"
-"Personal Information","私人信息"
+"Personal Information","个人信息"
 "Please enter your email below and we'll send you a new password.","请在下面输入您的电子邮件，我们会将新的密码发给您。"
 "Please enter your email below and we'll send you confirmation link for it.","请输入电子邮箱以获取确认链接。"
 "Please enter your email.","请输入电子邮箱。"
@@ -425,10 +425,10 @@
 "VAT Number","税号"
 "the order confirmation email is not sent","尚未发送订单确认邮件"
 "Products Reviews","商品评论"
-
 "If there is an account associated with %s you will receive an email with a link to reset your password.","您的邮箱 %s 将会收到一封邮件用来重置密码"
 "You are now logged out","您正在登出账户"
 "Male","男"
 "Female","女"
-
+"Reset a Password","重置密码"
+"Your password has been updated.","您的密码已更新"
 "Maximum length must be less then %s symbols","最大长度必须小于 %s 字符"
