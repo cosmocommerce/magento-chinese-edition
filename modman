@@ -48,3 +48,4 @@ wysiwyg/setup.js js/mage/adminhtml/wysiwyg/tiny_mce/setup.js
 
 
 adminhtml/catalog/wysiwyg/js.phtml  app/design/adminhtml/default/CosmoCommerce/template/catalog/wysiwyg/js.phtml
+adminhtml/catalog/product/edit.phtml  app/design/adminhtml/default/CosmoCommerce/template/catalog/product/edit.phtml
