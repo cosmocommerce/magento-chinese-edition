@@ -5,11 +5,14 @@ class CosmoCommerce_ChineseLocale_Block_Adminhtml_Catalog_Product_Edit extends M
     protected function _prepareLayout()
     {
         if ($this->getProduct()->getId() ) {
+            $product=Mage::getModel('catalog/product')->load($this->getProduct()->getId());
+            $url = Mage::getUrl($product->getUrlPath());
+
             $this->setChild('preview_button',
                 $this->getLayout()->createBlock('adminhtml/widget_button')
                     ->setData(array(
                         'label'     => Mage::helper('catalog')->__('Preview'),
-                        'onclick'   => 'popWin(\''.$this->getProduct()->getProductUrl().'\', \'_blank\')',
+                        'onclick'   => 'popWin(\''.$url.'\', \'_blank\')',
                         'class'     => 'add-widget'
                     ))
             );
