@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3c8401bb-671b-446e-b135-99a735b253f2" name="Default" comment="" />
+    <ignored path="magento-chinese-edition.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Modmans" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="order_update.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/order_update.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="59" selection-start="1741" selection-end="1741" vertical-scroll-proportion="-3.9666667" vertical-offset="470" max-vertical-offset="1045">
+              <folding>
+                <element signature="n#style#0;n#p#1;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order_update_guest.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/order_update_guest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="60" selection-start="1684" selection-end="1684" vertical-scroll-proportion="-6.928571" vertical-offset="376" max-vertical-offset="1007">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="creditmemo_new_guest.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/creditmemo_new_guest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="16" selection-start="2514" selection-end="2514" vertical-scroll-proportion="-0.60714287" vertical-offset="819" max-vertical-offset="2128">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="creditmemo_update.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/creditmemo_update.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="57" selection-start="1749" selection-end="1749" vertical-scroll-proportion="-8.821428" vertical-offset="342" max-vertical-offset="1064">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order_new_guest.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/order_new_guest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="84" selection-start="1989" selection-end="1989" vertical-scroll-proportion="-8.928572" vertical-offset="396" max-vertical-offset="2147">
+              <folding>
+                <element signature="n#style#0;n#a#0;n#p#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="invoice_update.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/invoice_update.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="58" selection-start="1739" selection-end="1739" vertical-scroll-proportion="-3.3214285" vertical-offset="496" max-vertical-offset="1045">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="invoice_update_guest.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/invoice_update_guest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="58" selection-start="1675" selection-end="1675" vertical-scroll-proportion="-4.892857" vertical-offset="433" max-vertical-offset="1007">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shipment_update.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/shipment_update.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="60" selection-start="1743" selection-end="1743" vertical-scroll-proportion="-5.428571" vertical-offset="437" max-vertical-offset="1064">
+              <folding>
+                <element signature="n#style#0;n#p#1;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shipment_update_guest.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/shipment_update_guest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="213" selection-start="2154" selection-end="2155" vertical-scroll-proportion="-10.857142" vertical-offset="342" max-vertical-offset="1026">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="creditmemo_update_guest.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/creditmemo_update_guest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="119" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.13064133" vertical-offset="496" max-vertical-offset="1045">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Kat" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/moneybookers_activateemail.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/account_new.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/account_new_confirmation.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/contact_form.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/account_new_confirmed.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/account_password_reset_confirmation.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/admin_password_reset_confirmation.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/currency_update_warning.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/log_clean_warning.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/newsletter_subscr_confirm.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/newsletter_subscr_success.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/newsletter_unsub_success.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/admin_password_new.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/password_new.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/payment_failed.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/product_price_alert.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/product_share.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/product_stock_alert.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/sitemap_generate_warning.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/token.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/wishlist_share.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/sales/invoice_new_guest.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/sales/creditmemo_new_guest.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/sales/creditmemo_new.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/sales/order_new_guest.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/sales/shipment_new.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/sales/shipment_new_guest.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/Mage_Customer.csv" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/Mage_Catalog.csv" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/Mage_Wishlist.csv" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/Mage_Shipping.csv" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/sales/order_new.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/sales/invoice_new.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/Mage_AdminNotification.csv" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/Mage_Adminhtml.csv" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/Mage_Sales.csv" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/sales/shipment_update.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/sales/shipment_update_guest.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/sales/order_update_guest.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/sales/order_update.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/sales/invoice_update_guest.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/sales/invoice_update.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/sales/creditmemo_update_guest.html" />
+        <option value="$PROJECT_DIR$/locale/zh_CN/template/email/sales/creditmemo_update.html" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1374" />
+    <option name="height" value="748" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modmans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modmans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento-chinese-edition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modmans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento-chinese-edition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modmans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento-chinese-edition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="locale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zh_CN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modmans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento-chinese-edition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="locale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zh_CN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="email" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modmans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento-chinese-edition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="locale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zh_CN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="email" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sales" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="SearchEverywhereHistory" value="" />
+    <property name="options.lastSelected" value="appearance" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="e73608c4-685d-4852-9a12-8c340d35380e" server_name="demo.fuwuqi.org.cn">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c8401bb-671b-446e-b135-99a735b253f2" name="Default" comment="" />
+      <created>1387595777347</created>
+      <updated>1387595777347</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/cosmocommerce/magento-chinese-edition&#10;">
+      <created>1387596376702</created>
+      <updated>1387596376702</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Merge branch 'master' of https://github.com/cosmocommerce/magento-chinese-edition&#10;">
+      <created>1387596853736</created>
+      <updated>1387596853736</updated>
+    </task>
+    <task id="LOCAL-00003" summary="email CN translate">
+      <created>1387657588044</created>
+      <updated>1387657588044</updated>
+    </task>
+    <task id="LOCAL-00004" summary="modify system notification">
+      <created>1387690822478</created>
+      <updated>1387690822478</updated>
+    </task>
+    <task id="LOCAL-00005" summary="modify system notification&#10;">
+      <created>1387723484059</created>
+      <updated>1387723484059</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1374" height="748" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23502304" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2284041" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Merge branch 'master' of https://github.com/cosmocommerce/magento-chinese-edition&#10;" />
+    <MESSAGE value="email CN translate" />
+    <MESSAGE value="modify system notification" />
+    <MESSAGE value="modify system notification&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify system notification&#10;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="Modmans" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="magento-chinese-edition" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/code/sql/chineselocale_setup/mysql4-upgrade-1.1.5-1.1.6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="16" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="817" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/sql/chineselocale_setup/mysql4-upgrade-1.1.5-1.1.6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="16" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="817" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/admin_translate.csv">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/Mage_Index.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/account_new_confirmation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1045" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/account_new_confirmed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1064" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/account_password_reset_confirmation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="40" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/admin_password_reset_confirmation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/currency_update_warning.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="365" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/log_clean_warning.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="365" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/contact_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="365" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/newsletter_subscr_confirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/newsletter_subscr_success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="365" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/newsletter_unsub_success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="365" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/moneybookers_activateemail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="22" selection-start="121" selection-end="143" vertical-scroll-proportion="0.15616438" vertical-offset="0" max-vertical-offset="365" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/admin_password_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="156" selection-start="2037" selection-end="2044" vertical-scroll-proportion="0.51604277" vertical-offset="472" max-vertical-offset="912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/password_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="156" selection-start="2068" selection-end="2068" vertical-scroll-proportion="1.8352273" vertical-offset="0" max-vertical-offset="912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/wishlist_share.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="152" selection-start="2085" selection-end="2085" vertical-scroll-proportion="0.59375" vertical-offset="456" max-vertical-offset="912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/token.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="21" selection-start="421" selection-end="442" vertical-scroll-proportion="0.6356164" vertical-offset="72" max-vertical-offset="437" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sitemap_generate_warning.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="247" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/product_stock_alert.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="25" selection-start="135" selection-end="135" vertical-scroll-proportion="0.26027396" vertical-offset="0" max-vertical-offset="365" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/product_share.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="113" selection-start="713" selection-end="713" vertical-scroll-proportion="0.70542634" vertical-offset="126" max-vertical-offset="513" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/product_price_alert.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="25" selection-start="139" selection-end="139" vertical-scroll-proportion="0.24547803" vertical-offset="0" max-vertical-offset="387" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/product_alert_cron_error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="228" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/payment_failed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="28" selection-start="1897" selection-end="1897" vertical-scroll-proportion="0.9741602" vertical-offset="839" max-vertical-offset="1444" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/Mage_Core.csv">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="195" column="45" selection-start="8547" selection-end="8555" vertical-scroll-proportion="0.17391305" vertical-offset="3713" max-vertical-offset="5529" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/translate.csv">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="254" selection-end="266" vertical-scroll-proportion="0.04859335" vertical-offset="152" max-vertical-offset="1349" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/invoice_new_guest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="60" selection-start="2013" selection-end="2013" vertical-scroll-proportion="0.035185184" vertical-offset="646" max-vertical-offset="2128" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/shipment_new_guest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="50" selection-start="46" selection-end="50" vertical-scroll-proportion="-0.73888886" vertical-offset="399" max-vertical-offset="2185" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/account_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="99" selection-start="2653" selection-end="2653" vertical-scroll-proportion="0.12037037" vertical-offset="657" max-vertical-offset="1197" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/Mage_Shipping.csv">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="28" selection-start="2905" selection-end="2905" vertical-scroll-proportion="-9.0" vertical-offset="1175" max-vertical-offset="1767">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/shipment_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="20" selection-start="2564" selection-end="2619" vertical-scroll-proportion="-12.892858" vertical-offset="399" max-vertical-offset="2223" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/invoice_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="16" selection-start="2482" selection-end="2482" vertical-scroll-proportion="0.76132405" vertical-offset="380" max-vertical-offset="2166">
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#td#0;n#tr#2;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/order_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="16" selection-start="1747" selection-end="1747" vertical-scroll-proportion="0.41114983" vertical-offset="372" max-vertical-offset="2166">
+          <folding>
+            <element signature="n#style#0;n#a#1;n#p#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#1;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/Mage_AdminNotification.csv">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="20" selection-start="496" selection-end="496" vertical-scroll-proportion="0.27430555" vertical-offset="89" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/Mage_Sales.csv">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="34" selection-start="4340" selection-end="4345" vertical-scroll-proportion="-3.5882354" vertical-offset="2325" max-vertical-offset="10393">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/Mage_Catalog.csv">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="604" column="26" selection-start="21454" selection-end="21454" vertical-scroll-proportion="1.4313725" vertical-offset="11549" max-vertical-offset="13623">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/Mage_Wishlist.csv">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="58" selection-start="2601" selection-end="2601" vertical-scroll-proportion="0.8330309" vertical-offset="643" max-vertical-offset="1216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/Mage_Customer.csv">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="422" column="12" selection-start="14385" selection-end="14388" vertical-scroll-proportion="0.9336824" vertical-offset="7559" max-vertical-offset="8417">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/Mage_Adminhtml.csv">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1089" column="43" selection-start="38735" selection-end="38735" vertical-scroll-proportion="2.5968587" vertical-offset="19488" max-vertical-offset="21147">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/creditmemo_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="146" selection-start="4602" selection-end="4607" vertical-scroll-proportion="-13.785714" vertical-offset="1039" max-vertical-offset="2166">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/creditmemo_new_guest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="16" selection-start="2514" selection-end="2514" vertical-scroll-proportion="-0.60714287" vertical-offset="819" max-vertical-offset="2128">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/order_new_guest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="84" selection-start="1989" selection-end="1989" vertical-scroll-proportion="-8.928572" vertical-offset="396" max-vertical-offset="2147">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#p#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/shipment_update_guest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="213" selection-start="2154" selection-end="2155" vertical-scroll-proportion="-10.857142" vertical-offset="342" max-vertical-offset="1026">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/shipment_update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="60" selection-start="1743" selection-end="1743" vertical-scroll-proportion="-5.428571" vertical-offset="437" max-vertical-offset="1064">
+          <folding>
+            <element signature="n#style#0;n#p#1;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/order_update_guest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="60" selection-start="1684" selection-end="1684" vertical-scroll-proportion="-6.928571" vertical-offset="376" max-vertical-offset="1007">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/order_update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="59" selection-start="1741" selection-end="1741" vertical-scroll-proportion="-3.9666667" vertical-offset="470" max-vertical-offset="1045">
+          <folding>
+            <element signature="n#style#0;n#p#1;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/invoice_update_guest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="58" selection-start="1675" selection-end="1675" vertical-scroll-proportion="-4.892857" vertical-offset="433" max-vertical-offset="1007">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/invoice_update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="58" selection-start="1739" selection-end="1739" vertical-scroll-proportion="-3.3214285" vertical-offset="496" max-vertical-offset="1045">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/creditmemo_update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="57" selection-start="1749" selection-end="1749" vertical-scroll-proportion="-8.821428" vertical-offset="342" max-vertical-offset="1064">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_CN/template/email/sales/creditmemo_update_guest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="119" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.13064133" vertical-offset="496" max-vertical-offset="1045">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
