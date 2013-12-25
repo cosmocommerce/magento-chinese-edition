@@ -34,7 +34,7 @@
 "Cannot complete this operation from non-admin area.","非管理设置内无法完成此操作"
 "Category object is required for determining product request path","确定商品请求路径需要分类对象"
 "Code","代码"
-"Collections Data","集合(Collections)数据"
+"Collections Data","数据集数据"
 "Configuration","配置"
 "Controller file was loaded but class does not exist","控制文件已加载但其类型不存在"
 "Cookie Domain","Cookie域"

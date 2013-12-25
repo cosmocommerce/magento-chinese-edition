@@ -1021,8 +1021,7 @@
 "Tier Price","层级价格"
 "Group Price","客户组价格"
 
-"Are you sure you want to do this?","您确定？"
-"Description","商品详情"
+"Are you sure you want to do this?","您确定？" 
 "Logged in as %s","%s已登录"
 "Meta Description","Meta产品描述"
 "Meta Title","Meta标题"
@@ -1091,3 +1090,26 @@
 
 "Male","男"
 "Female","女"
+
+"Cache Type","缓存类型"
+"System(config.xml, local.xml) and modules configuration files(config.xml).","系统和模块的配置文件."
+"Layout building instructions.","布局缓存"
+"Page blocks HTML.","页面模块的HTML缓存"
+"Translation files.","翻译语言包缓存"
+"Collection data files.","数据集文件"
+"Entity types declaration cache.","实体类型声明缓存"
+"Web Services definition files (api.xml).","第三方对接API V1定义文件"
+"Web Services definition files (api2.xml).","第三方对接API V2定义文件"
+
+"Associated Tags","关联标签"
+
+
+"Flush Magento Cache","刷新系统缓存"
+"Flush Cache Storage","刷新存储缓存"
+"Additional Cache Management","其他缓存"
+"Flush Catalog Images Cache","刷新产品图片缓存"
+"Flush JavaScript/CSS Cache","刷新Javascript/CSS缓存"
+"Pregenerated product images files.","预生成的商品图片."
+"Themes JavaScript and CSS files combined to one file.","Javascript和CSS的合并文件"
+
+"Enable WYSIWYG","使用所见即所得编辑器"
