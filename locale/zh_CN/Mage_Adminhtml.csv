@@ -1113,3 +1113,8 @@
 "Themes JavaScript and CSS files combined to one file.","Javascript和CSS的合并文件"
 
 "Enable WYSIWYG","使用所见即所得编辑器"
+
+
+"%s cache type(s) disabled.","%s 缓存类型禁用成功"
+"%s cache type(s) enabled.","%s 缓存类型启用成功"
+"%s cache type(s) refreshed.","%s 缓存类型刷新成功"

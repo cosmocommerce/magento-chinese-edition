@@ -432,3 +432,5 @@
 "Reset a Password","重置密码"
 "Your password has been updated.","您的密码已更新"
 "Maximum length must be less then %s symbols","最大长度必须小于 %s 字符"
+
+"The customer does not have default billing address.","该用户没有默认付款地址"

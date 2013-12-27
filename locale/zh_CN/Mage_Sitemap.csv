@@ -46,3 +46,8 @@ Path"""
 "Valid values range from 0.0 to 1.0","取值范围从 0.0 到 1.0"
 "Weekly","每周"
 "Yearly","每年"
+
+"The priority must be between 0 and 1.","优先级必须为 0 到 1 之间."
+"The sitemap ""%s"" has been generated.","站点地图 ""%s"" 生成成功."
+"The sitemap has been deleted.","站点地图删除成功"
+"The sitemap has been saved.","站点地图生成成功"
