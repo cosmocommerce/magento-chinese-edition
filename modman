@@ -1,6 +1,7 @@
 code                                   app/code/community/CosmoCommerce/ChineseLocale
 local/Customer                                   app/code/local/Mage/Customer
 local/Sales                                   app/code/local/Mage/Sales
+local/Adminhtml                                   app/code/local/Mage/Adminhtml
 locale/zh_CN/*      app/locale/zh_CN
 template/translate.csv     app/design/frontend/base/default/locale/zh_CN/translate.csv
 template/translate.csv     app/design/frontend/default/default/locale/zh_CN/translate.csv
