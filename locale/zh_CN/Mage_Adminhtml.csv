@@ -1033,8 +1033,8 @@
 "Special Price","特价"
 "Special Price From Date","特价开始日期"
 "Special Price To Date","特价结束日期"
-"The information in this tab has been changed.","此标签（tab）的信息已更新。"
-"This tab contains invalid data. Please solve the problem before saving.","此标签（tab）含有无效属性。请把该问题解决了才保存。"
+"The information in this tab has been changed.","此标签（tab）的信息已更新"
+"This tab contains invalid data. Please solve the problem before saving.","此标签（tab）含有无效属性。请把该问题解决了才保存"
 "URL Key","URL"
 "Visibility","显示"
 "Weight","重量"
@@ -1058,8 +1058,8 @@
 "Is Closed","是否完成"
 "Search Terms","搜素关键字统计"
 "Shopper Theme Settings v1.5.3","COSMOSHOP时尚购物"
-"Order Updated Date report is real-time, does not need statistics refreshing.","订单更新报告为实时报告，不需要统计刷新。"
-"This report depends on timezone configuration. Once timezone is changed, the lifetime statistics need to be refreshed.","此报告数据受时区设置影响。改变时区需要刷新统计数据。"
+"Order Updated Date report is real-time, does not need statistics refreshing.","订单更新报告为实时报告，不需要统计刷新"
+"This report depends on timezone configuration. Once timezone is changed, the lifetime statistics need to be refreshed.","此报告数据受时区设置影响。改变时区需要刷新统计数据"
 "Sales","销售"
 "Product SKU","商品SKU"
 "Product Name","商品名"
@@ -1102,14 +1102,14 @@
 "Web Services definition files (api2.xml).","第三方对接API V2定义文件"
 
 "Associated Tags","关联标签"
-
+"The attribute set has been removed.","属性已删除"
 
 "Flush Magento Cache","刷新系统缓存"
 "Flush Cache Storage","刷新存储缓存"
 "Additional Cache Management","其他缓存"
 "Flush Catalog Images Cache","刷新产品图片缓存"
 "Flush JavaScript/CSS Cache","刷新Javascript/CSS缓存"
-"Pregenerated product images files.","预生成的商品图片."
+"Pregenerated product images files.","预生成的商品图片"
 "Themes JavaScript and CSS files combined to one file.","Javascript和CSS的合并文件"
 
 "Enable WYSIWYG","使用所见即所得编辑器"
@@ -1126,3 +1126,5 @@
 "Schedule Description","交易说明"
 "Active","开启"
 "Inactive","关闭"
+
+"Last updated: %s. To refresh last day\'s <a href=""%s"">statistics</a>, click <a href=""%s"">here</a>.","上次更新于: %s. 如果需要刷新 <a href=""%s"">统计</a>, 点击 <a href=""%s"">这里</a>."
