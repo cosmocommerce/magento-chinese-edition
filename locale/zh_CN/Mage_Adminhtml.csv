@@ -367,6 +367,7 @@
 "Grand Total","总额"
 "Grid (default) / List","多栏（默认）/ 单栏"
 "Grid only","仅多栏"
+"Grid Only","仅多栏"
 "Group:","组别："
 "Guest","访客"
 "HTTP (unsecure)","HTTP（不安全）"
@@ -463,6 +464,7 @@
 "Links","连接"
 "List (default) / Grid","单栏（默认） /多栏"
 "List only","仅单栏"
+"List Only","仅单栏"
 "Load Template","加载模版"
 "Load default template","加载默认模版"
 "Load local Package","加载本地安装包"
@@ -1128,3 +1130,6 @@
 "Inactive","关闭"
 
 "Last updated: %s. To refresh last day\'s <a href=""%s"">statistics</a>, click <a href=""%s"">here</a>.","上次更新于: %s. 如果需要刷新 <a href=""%s"">统计</a>, 点击 <a href=""%s"">这里</a>."
+"Automatic (equalize price ranges)","自动 (按商品价格等分)"
+"Automatic (equalize product counts)","自动 (按商品数目等分)"
+"Manual","手动设置"
