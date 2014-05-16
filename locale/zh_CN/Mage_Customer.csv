@@ -432,5 +432,11 @@
 "Reset a Password","重置密码"
 "Your password has been updated.","您的密码已更新"
 "Maximum length must be less then %s symbols","最大长度必须小于 %s 字符"
-
+"Please enter the city.","请输入城市"
+"Please enter the first name.","请输入姓"
+"Please enter the last name.","请输入名"
+"Please enter the state/province.","请选择省份"
+"Please enter the street.","请输入地址"
+"Please enter the zip/postal code.","请输入邮编"
+"Please enter the telephone number.","请输入电话号码"
 "The customer does not have default billing address.","该用户没有默认付款地址"

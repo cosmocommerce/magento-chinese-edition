@@ -205,6 +205,7 @@
 "Telephone","电话"
 "Terms and Conditions","条款"
 "Terms and Conditions Information","条款信息"
+"There is already a customer registered using this email address. Please login using this email address or enter a different email address to register your account.","该邮件地址已注册，请登陆该邮件地址或输入其他邮件地址注册"
 "Terms and conditions","条款"
 "Text","纯文本"
 "Thank you for your purchase!","感谢您的惠顾！"
@@ -237,3 +238,4 @@
 "Sorry, no quotes are available for this order at this time.","对不起，目前无法配送此订单。"
 "Your order cannot be completed at this time as there is no payment methods available for it.","由于无法配送至该地址，您的订单暂时无法完成。"
 "Please make necessary changes in your shipping address.","请修改配送地址。"
+"Update Cart","更新"
